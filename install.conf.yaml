@@ -1,0 +1,20 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+      create: true
+
+- clean: ["~"]
+
+- clean:
+    ~/:
+      force: true
+    ~/.config:
+      recursive: true
+
+- link:
+    ~/.config/fish/config.fish:
+      path: config.fish
+
+    ~/.config/helix/config.toml:
+      path: config.toml
