@@ -17,8 +17,7 @@
     - https://github.com/jorgebucaran/fisher
 4. Install bass with fisher:
    - fisher install edc/bass (https://github.com/edc/bass)
-5. Install nvm (https://github.com/nvm-sh/nvm#installation-and-update):
-   - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+5. Install nvm: https://github.com/nvm-sh/nvm#installation-and-update
 6. Create a function file to hold the source command for nvm:
    - touch ~/.config/fish/functions/nvm.fish
    - add the following function in that newly created file:
