@@ -4,3 +4,4 @@ end
 
 
 alias lt='exa --tree --level=2'
+alias l="exa --tree --level=2 -a --icons"
