@@ -81,7 +81,7 @@
       - In your terminal, make sure you are in the home directory
       - Enter the following command in the terminal:
         ```
-           git clone https://github.com/valtix/.dotfiles.git (or whatever the link happens to be)
+           git clone git@github.com:valtix/.dotfiles.git
         ```
       - cd into your new dotfiles folder
       - run the terminal command:
