@@ -3,7 +3,9 @@
 1. Install FISH
    - Linux:
       - add repositories by following this link: https://launchpad.net/~fish-shell/+archive/ubuntu/release-3
-      - set as default shell by: chsh -s /usr/bin/fish
+      - set as default shell by:
+        ```
+        chsh -s /usr/bin/fish
       - log out/log back in of Operating System
       - run fish_config for changing themes/prompt options
    - Mac OS:
@@ -15,44 +17,77 @@
       - Add brew binaries in fish path run the command: fish_add_path /opt/homebrew/bin 
 3. Install fisher:
     - https://github.com/jorgebucaran/fisher
-4. Install bass with fisher:
-   - fisher install edc/bass (https://github.com/edc/bass)
+4. Install bass with fisher ( https://github.com/edc/bass ):
+   ```
+      fisher install edc/bass
+   ```
 5. Install nvm: https://github.com/nvm-sh/nvm#installation-and-update
 6. Create a function file to hold the source command for nvm:
-   - touch ~/.config/fish/functions/nvm.fish
-   - add the following function in that newly created file:
-     function nvm
-        bass source ~/.config/nvm/nvm.sh --no-use ';' nvm $argv
-     end
-7. Install node.js and npm via nvm:
-   - nvm install --lts
-   - nvm alias default node
-   - verify that it works by:
-   - node --version
-   - npm -- version
-8. Install Helix editor
-   - Go to: https://docs.helix-editor.com/install.html
-   - Remember: to use hx instead of vim when editing a file in the terminal!
-   - Install HTML language-server:npm i -g vscode-langservers-extracted (https://github.com/hrsh7th/vscode-langservers-extracted)
-   - Install javascript language-server: npm install -g typescript-language-server typescript (https://github.com/typescript-language-server/typescript-language-server)  
-9. Install EXA:
-   - Linux: 
-      - sudo apt install exa
-   - Mac OS:
-      - brew install exa 
-11. Install python pip
-    - Linux:
-       - sudo apt install python3-pip
-    - Mac OS:
-       - brew install python3       `this will install python3 and pip3`
+   ```
+      touch ~/.config/fish/functions/nvm.fish
+   ```
+7. add the following function in that newly created file:
+     ```
+        function nvm
+           bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+        end
+     ```
+8. Install node.js and npm via nvm:
+    ```
+      nvm install --lts
+    ```
+   ```
+      nvm alias default node
+   ```
+9. Verify that the step above worked by:
+   ```
+      node --version
+   ```
+   ```
+      npm -- version
+   ```
+10. Install Helix editor
+      - Go to: https://docs.helix-editor.com/install.html
+      - Remember: to use hx instead of vim when editing a file in the terminal!
+      - Install HTML language-server:npm i -g vscode-langservers-extracted (https://github.com/hrsh7th/vscode-langservers-extracted)
+      - Install javascript language-server: npm install -g typescript-language-server typescript (https://github.com/typescript-language-server/typescript-language-server)  
+11. Install EXA:
+      - Linux: 
+        ```
+           sudo apt install exa
+        ```  
+      - Mac OS:
+        ```
+           brew install exa
+        ```
+12. Install python pip
+       - Linux:
+          ```
+             sudo apt install python3-pip
+          ```
+       - Mac OS:
+           ```
+               brew install python3
+           ```
 13. Install Dotbot
-    - pip3 install dotbot
-    - add dotobot to path: set -U fish_user_paths $HOME/.local/bin $fish_user_paths   `this is for Linux only as we added the brew binaries to fish's path via homebrew`
-    - Go to your github page and copy the https link to the dotfiles repository
-    - In your terminal, make sure you are in the home directory
-    - Enter the following command in the terminal: git clone https://github.com/valtix/.dotfiles.git (or whatever the link happens to be)
-    - cd into your new dotfiles folder
-    - run the terminal command: dotbot -c install.conf.yaml
+    ```
+       pip3 install dotbot
+    ```
+      - add dotobot to path ( only for Linux ):
+        ```
+           set -U fish_user_paths $HOME/.local/bin $fish_user_paths
+        ```
+      - Go to your github page and copy the SSH link to the dotfiles repository
+      - In your terminal, make sure you are in the home directory
+      - Enter the following command in the terminal:
+        ```
+           git clone https://github.com/valtix/.dotfiles.git (or whatever the link happens to be)
+        ```
+      - cd into your new dotfiles folder
+      - run the terminal command:
+        ```
+           dotbot -c install.conf.yaml
+        ```
 14. Install live-server:
     - npm install -g live-server
 15. Install tmux:
