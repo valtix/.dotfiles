@@ -37,26 +37,32 @@
    - Install HTML language-server:npm i -g vscode-langservers-extracted (https://github.com/hrsh7th/vscode-langservers-extracted)
    - Install javascript language-server: npm install -g typescript-language-server typescript (https://github.com/typescript-language-server/typescript-language-server)  
 9. Install EXA:
-   - sudo apt install exa
-10. Install python pip
-   - sudo apt install python3-pip
-11. Install Dotbot
+   - Linux: 
+      - sudo apt install exa
+   - Mac OS:
+      - brew install exa 
+11. Install python pip
+    - Linux:
+       - sudo apt install python3-pip
+    - Mac OS:
+       - brew install python3       `this will install python3 and pip3`
+13. Install Dotbot
     - pip3 install dotbot
-    - add dotobot to path: set -U fish_user_paths $HOME/.local/bin $fish_user_paths
+    - add dotobot to path: set -U fish_user_paths $HOME/.local/bin $fish_user_paths   `this is for Linux only as we added the brew binaries to fish's path via homebrew`
     - Go to your github page and copy the https link to the dotfiles repository
     - In your terminal, make sure you are in the home directory
     - Enter the following command in the terminal: git clone https://github.com/valtix/.dotfiles.git (or whatever the link happens to be)
     - cd into your new dotfiles folder
     - run the terminal command: dotbot -c install.conf.yaml
-12. Install live-server:
+14. Install live-server:
     - npm install -g live-server
-13. Install tmux:
+15. Install tmux:
     - sudo apt-get install tmux
-14. Install Rust & Cargo
+16. Install Rust & Cargo
     - Go to: https://doc.rust-lang.org/cargo/getting-started/installation.html
     - Exit shell and log back in
     - Add to FISH path: set -U fish_user_paths $HOME/.cargo/env $fish_user_paths
     - Exit shell and log back in
-15. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
+17. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
     - On windows unzip the file and highlight all fonts and right click -> install
     - On linux unzip -> double click -> and you should see an option to install. You might have to google it if this is not the case
