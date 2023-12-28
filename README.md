@@ -93,10 +93,14 @@
 15. Install tmux:
     - sudo apt-get install tmux
 16. Install Rust & Cargo
-    - Go to: https://doc.rust-lang.org/cargo/getting-started/installation.html
-    - Exit shell and log back in
+    - Go to: https://doc.rust-lang.org/book/ch01-01-installation.html
     - Add to FISH path: set -U fish_user_paths $HOME/.cargo/env $fish_user_paths
-    - Exit shell and log back in
+    - Log out/log in of OS
+    - Confirm rust is in path by the following:
+      ```
+      rustc --version
+      ```
 17. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
     - On windows unzip the file and highlight all fonts and right click -> install
     - On linux unzip -> double click -> and you should see an option to install. You might have to google it if this is not the case
+    - In your terminal, go to settings and change the default font to Hack Nerd
