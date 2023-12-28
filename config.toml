@@ -1,4 +1,4 @@
-theme = "jellybeans"
+theme = "ferra"
 
 [keys.insert.j]
 k = "normal_mode" # maps jk to exit insert mode
