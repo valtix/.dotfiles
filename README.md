@@ -89,9 +89,13 @@
            dotbot -c install.conf.yaml
         ```
 14. Install live-server:
-    - npm install -g live-server
+    ```
+    npm install -g live-server
+    ```
 15. Install tmux:
-    - sudo apt-get install tmux
+    ```
+    sudo apt-get install tmux
+    ```
 16. Install Rust & Cargo
     - Go to: https://doc.rust-lang.org/book/ch01-01-installation.html
     - Add to FISH path: set -U fish_user_paths $HOME/.cargo/env $fish_user_paths
