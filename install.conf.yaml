@@ -18,3 +18,6 @@
 
     ~/.config/helix/config.toml:
       path: config.toml
+
+    ~/.tmux.conf:
+      path: tmux.conf
