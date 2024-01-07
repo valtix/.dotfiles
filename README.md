@@ -100,7 +100,7 @@
     - Go to: https://doc.rust-lang.org/book/ch01-01-installation.html
     - Add to FISH path:
       ```
-      fish_add_path ~/.cargo/env
+      fish_add_path ~/.cargo/bin/
       ```
     - Log out/log in of OS
     - Confirm rust is in path by the following:
