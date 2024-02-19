@@ -11,3 +11,4 @@ alias lh="cd ~"
 alias dt="cd ~/.dotfiles/"
 alias web="cd ~/Documents/webDevelopmentCourse"
 alias wd="cd /Users/ivaltier/Library/CloudStorage/WorkDocsDrive-Documents/"     # work labtop ONLY
+alias rs="cd /home/ivaltier/Projects/Rust/sample/src"  # pop os computer only
