@@ -107,6 +107,8 @@
       ```
       rustc --version
       ```
+    - Install rust-analyzer  ```rustup component add rust-analyzer```
+    - Create a languages.toml file with default settings in: ~/.config/helix/ 
 17. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
     - On windows unzip the file and highlight all fonts and right click -> install
     - On linux unzip -> double click -> and you should see an option to install. You might have to google it if this is not the case
