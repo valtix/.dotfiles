@@ -46,48 +46,6 @@
    ```
       npm -- version
    ```
-10. Install Helix editor
-      - Go to: https://docs.helix-editor.com/install.html
-      - Remember: to use hx instead of vim when editing a file in the terminal!
-      - Install HTML language-server:npm i -g vscode-langservers-extracted (https://github.com/hrsh7th/vscode-langservers-extracted)
-      - Install javascript language-server: npm install -g typescript-language-server typescript (https://github.com/typescript-language-server/typescript-language-server)  
-11. Install EXA:
-      - Linux: 
-        ```
-           sudo apt install exa
-        ```  
-      - Mac OS:
-        ```
-           brew install exa
-        ```
-12. Install python pip
-       - Linux:
-          ```
-             sudo apt install python3-pip
-          ```
-       - Mac OS:
-           ```
-               brew install python3
-           ```
-13. Install Dotbot
-    ```
-       pip3 install dotbot
-    ```
-      - add dotobot to path ( only for Linux ):
-        ```
-           set -U fish_user_paths $HOME/.local/bin $fish_user_paths
-        ```
-      - Go to your github page and copy the SSH link to the dotfiles repository
-      - In your terminal, make sure you are in the home directory
-      - Enter the following command in the terminal:
-        ```
-           git clone git@github.com:valtix/.dotfiles.git
-        ```
-      - cd into your new dotfiles folder
-      - run the terminal command:
-        ```
-           dotbot -c install.conf.yaml
-        ```
 14. Install live-server:
     ```
     npm install -g live-server
