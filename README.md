@@ -69,7 +69,7 @@
     - Create a languages.toml file with default settings in: ~/.config/helix/
 13. Install EZA (don't use cargo, follow the respective Distribution directions)
     - Go to: https://eza.rocks/
-13. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
+14. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
     - On windows unzip the file and highlight all fonts and right click -> install
     - On linux unzip -> double click -> and you should see an option to install. You might have to google it if this is not the case
     - In your terminal, go to settings and change the default font to Hack Nerd
