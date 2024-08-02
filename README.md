@@ -46,15 +46,15 @@
    ```
       npm -- version
    ```
-14. Install live-server:
+10. Install live-server:
     ```
     npm install -g live-server
     ```
-15. Install tmux:
+11. Install tmux:
     ```
     sudo apt-get install tmux
     ```
-16. Install Rust & Cargo
+12. Install Rust & Cargo
     - Go to: https://doc.rust-lang.org/book/ch01-01-installation.html
     - Add to FISH path:
       ```
@@ -66,8 +66,10 @@
       rustc --version
       ```
     - Install rust-analyzer  ```rustup component add rust-analyzer```
-    - Create a languages.toml file with default settings in: ~/.config/helix/ 
-17. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
+    - Create a languages.toml file with default settings in: ~/.config/helix/
+13. Install EZA (don't use cargo, follow the respective Distribution directions)
+    - Go to: https://eza.rocks/
+13. Install Hack Nerd Fonts (https://www.nerdfonts.com/font-downloads)
     - On windows unzip the file and highlight all fonts and right click -> install
     - On linux unzip -> double click -> and you should see an option to install. You might have to google it if this is not the case
     - In your terminal, go to settings and change the default font to Hack Nerd
