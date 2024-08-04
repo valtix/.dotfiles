@@ -8,12 +8,15 @@
         chsh -s /usr/bin/fish
       - log out/log back in of Operating System
       - run fish_config for changing themes/prompt options
-3. Install NEOVIM
+2. Install NEOVIM
    - Go to: https://github.com/neovim/neovim/releases/tag/v0.10.0
    - Under Assets (at the bottom of screen) donwload: nvim.appimage
    - Run ```chmod u+x nvim.appimage && ./nvim.appimage```
    - Move the Neovim app image to /usr/local/bin folder ```sudo mv nvim.appimage /usr/local/bin/nvim```
    - Try openning from any location in terminal by running: ```nvim```
+3. Install Alacritty
+   - Install via snap as it has version 13 (which uses the new file format .toml
+   - Run: ```sudo snap install alacritty --classic```
 4. Install fisher:
     - https://github.com/jorgebucaran/fisher
 5. Install bass with fisher ( https://github.com/edc/bass ):
